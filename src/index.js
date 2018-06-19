@@ -4,6 +4,7 @@ import WelcomePage from './components/welcome_page/welcome_page';
 import Navbar from './components/navbar/navbar';
 import registerServiceWorker from './registerServiceWorker';
 import 'tachyons';
+import './index.css';
 
 class App extends Component {
 	render() {
