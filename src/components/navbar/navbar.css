@@ -1,12 +1,12 @@
 .nav-bar {
+	position: fixed;
 	list-style-type: none;
 	width: 100%;
-	position: fixed;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	text-align: center;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	background-color: #f1f1f1;
 	z-index: 500;
 }
@@ -26,7 +26,7 @@
 	font-weight: 100;
 	font-size: 36px;
 	display: block;
-	margin-left: 60px;
+	margin: 0 0 0 60px;
 	color: black;
 	text-align: center;
 	padding: 7px 8px;

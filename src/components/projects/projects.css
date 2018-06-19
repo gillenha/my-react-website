@@ -1,0 +1,38 @@
+.Projects {
+	background-color: #fff;
+}
+
+.item {
+	position: relative;
+	/*float: left;*/
+	width: 450px;
+	margin: 10px;
+}
+
+.section {
+	padding: 25px;
+}
+
+.flex-container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+/*.text {
+	white-space: nowrap;
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform:(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}*/
