@@ -10,7 +10,7 @@ class Projects extends Component {
 					<img src="robofriends.png" className="thumb" />
 					<div className="overlay">
 						<div className="text">
-							<h3>Robofriends</h3>
+							<h3>Project 1</h3>
 							<p><strong>Created a list of card elements using the React front end library</strong></p>
 							<p>Javascript, React, Redux</p>
 							<p><a href="https://robofriendsapp.herokuapp.com" target="_blank">Explore App</a></p>
@@ -21,7 +21,7 @@ class Projects extends Component {
 					<img src="" className="thumb" />
 					<div className="overlay">
 						<div className="text">
-							<h3>Robofriends</h3>
+							<h3>Project 1</h3>
 							<p><strong>Created a list of card elements using the React front end library</strong></p>
 							<p>Javascript, React, Redux</p>
 							<p><a href="https://robofriendsapp.herokuapp.com" target="_blank">Explore App</a></p>
@@ -32,7 +32,7 @@ class Projects extends Component {
 					<img src="" className="thumb" />
 					<div className="overlay">
 						<div className="text">
-							<h3>Robofriends</h3>
+							<h3>Project 1</h3>
 							<p><strong>Created a list of card elements using the React front end library</strong></p>
 							<p>Javascript, React, Redux</p>
 							<p><a href="https://robofriendsapp.herokuapp.com" target="_blank">Explore App</a></p>
@@ -43,7 +43,7 @@ class Projects extends Component {
 					<img src="" className="thumb" />
 					<div className="overlay">
 						<div className="text">
-							<h3>Robofriends</h3>
+							<h3>Project 1</h3>
 							<p><strong>Created a list of card elements using the React front end library</strong></p>
 							<p>Javascript, React, Redux</p>
 							<p><a href="https://robofriendsapp.herokuapp.com" target="_blank">Explore App</a></p>
