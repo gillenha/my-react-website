@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class WelcomePage extends Component {
 	render() {
 		return(
-			<div className="tc">
+			<div className="">
 				<h1 className=""><strong>Harry Gillen</strong></h1>
 				<p>Web Developer</p>
 				<p>northern Michigan</p>

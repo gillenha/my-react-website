@@ -17,25 +17,25 @@ class Tutorials extends Component {
 				<p className="">I make Javascript tutorials. Check out how I solve problems!</p>
 				<div className="">
 					<YouTube 
-						className="pa3 mr2"
+						className=""
 						videoId="a-IbUyGxewI" 
 						opts={opts} 
 						onReady={this._onReady} 
 					/>
 					<YouTube 
-						className="pa3 mr2"
+						className=""
 						videoId="PenXAtiFmJc" 
 						opts={opts} 
 						onReady={this._onReady} 
 					/>
 					<YouTube 
-						className="pa3 mr2"
+						className=""
 						videoId="WvykNpJrmBI" 
 						opts={opts} 
 						onReady={this._onReady} 
 					/>
 					<YouTube 
-						className="pa3 mr2"
+						className=""
 						videoId="j8CU_quwHv0" 
 						opts={opts} 
 						onReady={this._onReady} 
