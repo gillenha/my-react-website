@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import YouTube from 'react-youtube';
-import './tutorials.css';
+// import './tutorials.css';
 
 class Tutorials extends Component {
 	render() {
@@ -13,9 +13,9 @@ class Tutorials extends Component {
 		}
 
 		return(
-			<div>
-				<p className="section-paragraph">I make Javascript tutorials. Check out how I solve problems!</p>
-				<div className="youtube-videos">
+			<div className="">
+				<p className="">I make Javascript tutorials. Check out how I solve problems!</p>
+				<div className="">
 					<YouTube 
 						className="pa3 mr2"
 						videoId="a-IbUyGxewI" 
@@ -40,7 +40,7 @@ class Tutorials extends Component {
 						opts={opts} 
 						onReady={this._onReady} 
 					/>
-				</div>
+					</div>
 			</div>
 		);
 	}

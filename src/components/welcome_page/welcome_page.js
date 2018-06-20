@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './welcome_page.css';
+// import './welcome_page.css';
 
 
 class WelcomePage extends Component {
 	render() {
 		return(
-			<div className="welcome-section tc">
-				<h1 className="welcome-intro"><strong>Harry Gillen</strong></h1>
+			<div className="tc">
+				<h1 className=""><strong>Harry Gillen</strong></h1>
 				<p>Web Developer</p>
 				<p>northern Michigan</p>
 				<a href="https://www.linkedin.com/in/harrygillen/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-3x"></i></a>
