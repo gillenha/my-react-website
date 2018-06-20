@@ -8,7 +8,7 @@ import Tutorials from './components/tutorials/tutorials';
 import Contact from './components/contact/contact';
 import registerServiceWorker from './registerServiceWorker';
 import 'tachyons';
-// import './index.css';
+import './index.css';
 
 class App extends Component {
 	render() {

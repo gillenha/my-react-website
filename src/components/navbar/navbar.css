@@ -1,59 +1,17 @@
-.nav-bar {
+.navbar {
 	position: fixed;
-	list-style-type: none;
 	width: 100%;
-	margin: 0;
+}
+
+.navbar-brand {
+	font-size: 50px;
 	padding: 0;
-	overflow: hidden;
-	text-align: center;
-	background-color: #f1f1f1;
-	z-index: 500;
 }
 
-.nav-item {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 300;
-	float: right;
+.collapse {
+	font-size: 20px;
 }
 
-.nav-last {
-	margin-right: 60px;
-}
-
-.nav-name {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 100;
-	font-size: 36px;
-	display: block;
-	margin-left: 60px;
-	color: black;
-	text-align: center;
-	padding: 7px 8px;
-	text-decoration: none;
-	float: left;
-}
-
-.nav-link {
-	display: block;
-	color: #666;
-	padding: 20px 20px;
-	text-decoration: none;
-	-webkit-transition-duration: 0.4s;
-	-o-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-}
-
-.nav-link:hover:not(.active) {
-	background-color: #bafffc;
-	color: #16223C;
-}
-
-.nav-link.active {
-	color: white;
-	background-color: #4CAF50;
-}
-
-.nav-link:focus {
-	color: white;
-	background-color: #4CAF50;
+.active {
+	display: inline-block;
 }
