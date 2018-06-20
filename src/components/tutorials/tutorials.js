@@ -34,6 +34,12 @@ class Tutorials extends Component {
 						opts={opts} 
 						onReady={this._onReady} 
 					/>
+					<YouTube 
+						className="pa3 mr2"
+						videoId="WvykNpJrmBI" 
+						opts={opts} 
+						onReady={this._onReady} 
+					/>
 				</div>
 			</div>
 		);

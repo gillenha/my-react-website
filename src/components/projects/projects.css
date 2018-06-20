@@ -4,9 +4,13 @@
 
 .item {
 	position: relative;
-	/*float: left;*/
+	float: left;
 	width: 450px;
+	height: 250px;
 	margin: 10px;
+	border: 1px solid black;
+	text-align: center;
+	box-shadow: -1px 1px 5px 1px black;
 }
 
 .section {
