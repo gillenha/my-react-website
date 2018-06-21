@@ -3,7 +3,6 @@ import robofriends from '../../images/robofriends.png';
 import youtubesearch from '../../images/youtubesearch.png';
 import facerecapp from '../../images/facerecapp.png';
 import weatherapi from '../../images/weatherapi.png';
-import twitchtv from '../../images/twitchtv.png'
 import './projects.css';
 
 class Projects extends Component {

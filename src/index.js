@@ -7,6 +7,7 @@ import About from './components/about/about';
 import Tutorials from './components/tutorials/tutorials';
 import Contact from './components/contact/contact';
 import registerServiceWorker from './registerServiceWorker';
+import {cityId, API_KEY} from './secrets.js';
 import 'tachyons';
 import './index.css';
 
