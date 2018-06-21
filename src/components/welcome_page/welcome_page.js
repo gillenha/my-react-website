@@ -13,7 +13,7 @@ class WelcomePage extends Component {
 	}
 
 	componentDidMount() {
-		fetch(`http://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${API_KEY}`)
+		fetch(`https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${API_KEY}`)
 		.then(response => response.json()
 		.then(data => ({
 			data: data,
