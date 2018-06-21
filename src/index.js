@@ -6,6 +6,7 @@ import Projects from './components/projects/projects';
 import About from './components/about/about';
 import Tutorials from './components/tutorials/tutorials';
 import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 import registerServiceWorker from './registerServiceWorker';
 // import {cityId, API_KEY} from './secrets.js';
 import 'tachyons';
@@ -25,6 +26,7 @@ class App extends Component {
 					<Tutorials />
 				<h2 className="heading tc underline" id="contact">let\'s get in touch</h2>
 					<Contact />
+					<Footer />
 			</div>
 		)
 	}
