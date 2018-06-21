@@ -22,6 +22,7 @@ class WelcomePage extends Component {
 	).then(res => {
 		let weather = res.data.weather[0].description;
 		let temp = res.data.main.temp;
+		temp = Math.round((temp - 273.15) * 1.8 + 32);
 		this.setState({ 
 			weather: weather,
 			temp: temp
@@ -41,7 +42,7 @@ class WelcomePage extends Component {
 				<br />
 				where the weather is:</p>
 				<p className="weather-text">
-				{this.state.temp}&deg;
+				{this.state.temp}&deg; F
 				<br/>
 				{this.state.weather}
 				</p>				
