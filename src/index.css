@@ -1,16 +1,21 @@
 body {
 	margin: 0;
 	padding: 0;
-	/*font-family: sans-serif;*/
+    font-family: Consolas;
+    background: linear-gradient(#f8f9fa, #bcdaf9);
 }
 
-h1:before {
+.heading {
+    padding: 25px;
+}
+
+/*h1:before {
     content: " ";
     display: block;
     visibility: hidden;
     margin-top: -1em;
     height: 3em;
-}
+}*/
 
 /*#contact {
     content: " ";

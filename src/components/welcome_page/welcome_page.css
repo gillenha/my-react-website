@@ -1,21 +1,30 @@
-/*#welcome-intro {
-	margin-top: 0;
-}*/
-
 .Welcome {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-top: 50px;
-	min-height: 85vh;
+	height: 80vh;
+	margin-top: 10%;
+	font-family: Consolas;
 }
 
 .welcome-intro {
-	padding-top: 15%;
-	margin-top: 0;
+	font-weight: 100;
 }
 
-.Welcome > h1 {
-	font-size: 20px;
+.Welcome button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Welcome button:hover {
+    background-color: #007bff;
+    border: 2px solid;
+    border-color: #062b52;
+    color: white;
 }

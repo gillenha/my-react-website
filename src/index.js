@@ -13,16 +13,16 @@ import './index.css';
 class App extends Component {
 	render() {
 		return(
-			<div>
+			<div className="container">
 					<Navbar />
 					<WelcomePage />
-				<h2 className="heading tc" id="projects">PROJECTS</h2>
+				<h2 className="heading tc underline" id="projects">projects</h2>
 					<Projects />
-				<h2 className="heading tc" id="about">ABOUT</h2>
+				<h2 className="heading tc underline" id="about">about</h2>
 					<About />
-				<h2 className="heading tc" id="tutorials">TUTORIALS</h2>
+				<h2 className="heading tc underline" id="tutorials">tutorials</h2>
 					<Tutorials />
-				<h2 className="heading tc" id="contact">LET'S GET IN TOUCH</h2>
+				<h2 className="heading tc underline" id="contact">let\'s get in touch</h2>
 					<Contact />
 			</div>
 		)
