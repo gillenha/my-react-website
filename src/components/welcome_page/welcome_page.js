@@ -29,10 +29,7 @@ class WelcomePage extends Component {
 	})
 }
 
-temperatureConverter(valNum) {
-	valNum = parseFloat(valNum);
-	return (valNum-273.15) * 1.8 + 32
-}
+
 
 
 	render() {
