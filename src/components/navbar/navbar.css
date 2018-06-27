@@ -1,0 +1,9 @@
+.navbar {
+	position: relative;
+	margin-top: 0;
+	padding-top: 0px;
+}
+
+.navbar a {
+	margin-top: 0px;
+}

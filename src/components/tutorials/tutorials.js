@@ -14,7 +14,7 @@ class Tutorials extends Component {
 
 		return(
 			<div className="tutorials tc">
-				<p className="">I make Javascript tutorials. Check out how I solve problems!</p>
+				<p className="text-box">When I solve a Javascript problem, I love to explain how I got there. It helps sharpen my own insights and log how I was able to complete a task. Take a look!</p>
 				<div className="">
 					<YouTube 
 						className=""
@@ -22,6 +22,7 @@ class Tutorials extends Component {
 						opts={opts} 
 						onReady={this._onReady} 
 					/>
+				<p class-name="text-box">Check out more of my tutorials <a href="https://www.youtube.com/user/gillenha/videos?view_as=subscriber" target="_blank">here</a>.</p>
 					</div>
 			</div>
 		);
