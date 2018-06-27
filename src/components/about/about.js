@@ -6,9 +6,9 @@ class About extends Component {
 		return(
 			<div className="tc">
 				<h1 className=""><strong>Harry Gillen</strong>: full stack web developer</h1>
-				<p className="">As a <strong>full stack developer</strong>, I develop the lorem ipsum dolor</p>
-				<p className="">I come from a humble background from the backwoods of northern Michigan</p>
-				<p className="">I am passionate about three things: thing one thing two thing three.</p>
+				<p className="">I love technology and I love building things, and I always have a <strong>strong</strong> desire to learn.</p>
+				<p className="">I got into web development because the world is changing and technology is touching all areas of our lives and businesses.</p>
+				<p className="">I'm not always coding. I love reading about history, being outdoors, and exploring new places, food, people, and things.</p>
 			</div>
 		)
 	}
