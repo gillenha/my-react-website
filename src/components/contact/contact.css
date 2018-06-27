@@ -1,11 +1,8 @@
-.contact-info {
+.contact-info a {
 	list-style-type: none;
+	color: white;
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
-	-ms-flex-align: center;
 	align-items: center;
-	z-index: 500;
-	background: #bafffc;
-	background: linear-gradient(to right, #bafffc, #f1f1f1);
 }

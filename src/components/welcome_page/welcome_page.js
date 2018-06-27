@@ -38,9 +38,9 @@ class WelcomePage extends Component {
 			<div className="Welcome section tc">
 				<h1 className="welcome-intro"><strong>Harry Gillen</strong></h1>
 				<p>Web Developer</p>
-				<p>I live in northern Michigan,
+				<p>northern Michigan
 				<br />
-				where the weather is:</p>
+				current weather:</p>
 				<p className="weather-text">
 				{this.state.temp}&deg; F
 				<br/>
