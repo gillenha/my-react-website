@@ -51,7 +51,7 @@ class WelcomePage extends Component {
 				<a href="https://codepen.io/gillenha/" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen fa-3x"></i></a>
 				<a href="mailto:gillen08@gmail.com?Subject=Lets%20connect!" target="_blank" rel="noopener noreferrer"><i className="fas fa-at fa-3x i-hov"></i></a>
 				<br />
-				<a href="https://drive.google.com/file/d/1CyqFkNJqZPT0psoUabOJ1zbnXkiKAMxo/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="resume-button">Resume</button></a>
+				<a href="https://drive.google.com/file/d/1JxZ-yGHWiMjOvVt1-p0FKFdkxnaMJhiv/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="resume-button">Resume</button></a>
 			</div>
 		)
 	}
