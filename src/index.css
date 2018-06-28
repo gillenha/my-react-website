@@ -9,6 +9,11 @@ body {
     padding: 25px;
 }
 
+@media screen and (max-width: 480px) {
+    .navbar {
+        display: none;
+    }
+}
 
 
 /*h1:before {

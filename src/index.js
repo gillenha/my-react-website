@@ -8,7 +8,6 @@ import Tutorials from './components/tutorials/tutorials';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import registerServiceWorker from './registerServiceWorker';
-// import {cityId, API_KEY} from './secrets.js';
 import 'tachyons';
 import './index.css';
 
