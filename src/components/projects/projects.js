@@ -3,6 +3,8 @@ import robofriends from '../../images/robofriends.png';
 import youtubesearch from '../../images/youtubesearch.png';
 import facerecapp from '../../images/facerecapp.png';
 import weatherapi from '../../images/weatherapi.png';
+import twitchtv from '../../images/twitchtv.png';
+import wikipedia from '../../images/wikipedia.png';
 import './projects.css';
 
 class Projects extends Component {
@@ -49,6 +51,28 @@ class Projects extends Component {
 							<h3>YouTube Viewer</h3>
 							<p><strong>Simple YouTube viewer using the youtube-search-api package and React</strong></p>
 							<p>Javascript, React, Redux</p>
+							<p><a href="https://watchyoutube.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out</a></p>
+						</div>
+					</div>
+				</div>
+				<div className="item">
+					<img src={twitchtv} alt="" className="thumb" />
+					<div className="overlay">
+						<div className="text">
+							<h3>Twitch TV Viewer</h3>
+							<p><strong>App that lets you see which of your favorite Twitch TV streamers are currently streaming</strong></p>
+							<p>HTML, CSS, JQuery, Javascript, Twitch API</p>
+							<p><a href="https://watchyoutube.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out</a></p>
+						</div>
+					</div>
+				</div>
+				<div className="item">
+					<img src={wikipedia} alt="" className="thumb" />
+					<div className="overlay">
+						<div className="text">
+							<h3>Wikipedia Viewer</h3>
+							<p><strong>Simple Wikipedia Viewer using the Wikipedia API</strong></p>
+							<p>Javascript, HTML, CSS, JQuery, Wikipedia API</p>
 							<p><a href="https://watchyoutube.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out</a></p>
 						</div>
 					</div>

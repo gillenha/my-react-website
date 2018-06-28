@@ -22,7 +22,7 @@ class Tutorials extends Component {
 						opts={opts} 
 						onReady={this._onReady} 
 					/>
-				<p class-name="text-box">Check out more of my tutorials <a href="https://www.youtube.com/user/gillenha/videos?view_as=subscriber" target="_blank">here</a>.</p>
+				<p class-name="text-box">Check out more of my tutorials <a href="https://www.youtube.com/user/gillenha/videos?view_as=subscriber" target="_blank" rel="noopener noreferrer">here</a>.</p>
 					</div>
 			</div>
 		);
