@@ -23,7 +23,7 @@ class App extends Component {
 					<About />
 				<h2 className="heading tc underline" id="tutorials">tutorials</h2>
 					<Tutorials />
-				<h2 className="heading tc underline" id="contact">let\'s get in touch</h2>
+				<h2 className="heading tc underline" id="contact">let's get in touch</h2>
 					<Contact />
 					<Footer />
 			</div>
