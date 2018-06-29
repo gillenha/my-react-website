@@ -13,7 +13,7 @@
     "react-scripts": "1.1.4",
     "react-youtube": "^7.6.0",
     "tachyons": "^4.10.0",
-    "homepage" : "http://gillenha.github.io/my-react-website",
+    "homepage" : "http://gillenha.github.io/my-react-website"
   },
   "scripts": {
     "start": "react-scripts start",
