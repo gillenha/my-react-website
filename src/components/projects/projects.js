@@ -51,7 +51,7 @@ class Projects extends Component {
 							<h3>YouTube Viewer</h3>
 							<p><strong>Simple YouTube viewer using the youtube-search-api package and React</strong></p>
 							<p>Javascript, React, Redux</p>
-							<p><a href="https://watchyoutube.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out</a></p>
+							<p><a href="https://gillenha.github.io/youtubeviewer/" target="_blank" rel="noopener noreferrer">Check it out</a></p>
 						</div>
 					</div>
 				</div>
