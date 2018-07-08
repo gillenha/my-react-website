@@ -5,6 +5,7 @@ import facerecapp from '../../images/facerecapp.png';
 import weatherapi from '../../images/weatherapi.png';
 import twitchtv from '../../images/twitchtv.png';
 import wikipedia from '../../images/wikipedia.png';
+import bookapp from '../../images/bookapp.png';
 import './projects.css';
 
 class Projects extends Component {
@@ -74,6 +75,17 @@ class Projects extends Component {
 							<p><strong>Simple Wikipedia Viewer using the Wikipedia API</strong></p>
 							<p>Javascript, HTML, CSS, JQuery, Wikipedia API</p>
 							<p><a href="https://watchyoutube.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out</a></p>
+						</div>
+					</div>
+				</div>
+				<div className="item">
+					<img src={bookapp} alt="" className="thumb" />
+					<div className="overlay">
+						<div className="text">
+							<h3>Book App</h3>
+							<p><strong>A React app that that connects Redux and React-Redux into a short list of books.</strong></p>
+							<p>React, Redux, react-redux, JSX, Babel</p>
+							<p><a href="https://gillenha.github.io/redux-book-app/" target="_blank" rel="noopener noreferrer">Check it out</a></p>
 						</div>
 					</div>
 				</div>
