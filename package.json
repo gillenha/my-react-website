@@ -1,6 +1,9 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "9.10.1"
+  },
   "private": true,
   "homepage": "https://gillenha.github.io/my-react-website",
   "dependencies": {
