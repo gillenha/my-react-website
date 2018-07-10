@@ -6,6 +6,7 @@ import weatherapi from '../../images/weatherapi.png';
 import twitchtv from '../../images/twitchtv.png';
 import wikipedia from '../../images/wikipedia.png';
 import bookapp from '../../images/bookapp.png';
+import reactweather from '../../images/reactweather.png';
 import './projects.css';
 
 class Projects extends Component {
@@ -33,6 +34,30 @@ class Projects extends Component {
 							<p>Javascript, React, Redux, Node.js, Express.js, PostgreSQL, pgAdmin</p>
 							<p><a href="https://facerecapp.herokuapp.com" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
 							<p><a href="https://github.com/gillenha/face-detect-app" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+						</div>
+					</div>
+				</div>
+				<div className="item">
+					<img src={bookapp} alt="" className="thumb" />
+					<div className="overlay">
+						<div className="text">
+							<h3>Book App</h3>
+							<p><strong>A React app that that connects Redux and React-Redux into a short list of books.</strong></p>
+							<p>React, Redux, react-redux, JSX, Babel</p>
+							<p><a href="https://gillenha.github.io/redux-book-app/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+							<p><a href="https://github.com/gillenha/redux-book-app" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+						</div>
+					</div>
+				</div>
+				<div className="item">
+					<img src={reactweather} alt="" className="thumb" />
+					<div className="overlay">
+						<div className="text">
+							<h3>Five Day Weather</h3>
+							<p><strong>A React app that that connects Redux and React-Redux and allows the user to search for the five day forecast of multiple cities.</strong></p>
+							<p>React, Redux, react-redux, JSX, Babel</p>
+							<p><a href="https://gillenha.github.io/react-weather-app/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+							<p><a href="https://github.com/gillenha/react-weather-app" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
 						</div>
 					</div>
 				</div>
@@ -81,18 +106,6 @@ class Projects extends Component {
 							<p>Javascript, HTML, CSS, JQuery, Wikipedia API</p>
 							<p><a href="https://gillenha.github.io/wikipedia-viewer/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
 							<p><a href="https://github.com/gillenha/wikipedia-viewer" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
-						</div>
-					</div>
-				</div>
-				<div className="item">
-					<img src={bookapp} alt="" className="thumb" />
-					<div className="overlay">
-						<div className="text">
-							<h3>Book App</h3>
-							<p><strong>A React app that that connects Redux and React-Redux into a short list of books.</strong></p>
-							<p>React, Redux, react-redux, JSX, Babel</p>
-							<p><a href="https://gillenha.github.io/redux-book-app/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
-							<p><a href="https://github.com/gillenha/redux-book-app" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
 						</div>
 					</div>
 				</div>
