@@ -7,12 +7,25 @@ import twitchtv from '../../images/twitchtv.png';
 import wikipedia from '../../images/wikipedia.png';
 import bookapp from '../../images/bookapp.png';
 import reactweather from '../../images/reactweather.png';
+import rollingfarms from '../../images/rollingfarms.jpg';
 import './projects.css';
 
 class Projects extends Component {
 	render() {
 		return (
 			<div className="Projects section flex-container">
+				<div className="item">
+					<img src={rollingfarms} alt="" className="thumb" />
+					<div className="overlay">
+						<div className="text">
+							<h3>Rolling Farms Cafe</h3>
+							<p><strong>Created a working website from scratch for a local business in my area. Includes small use of the Google Maps API</strong></p>
+							<p>Javascript, HTML5, CSS3, Bootstrap 4</p>
+							<p><a href="https://gillenha.github.io/rolling-farms/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+							<p><a href="https://github.com/gillenha/rolling-farms" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+						</div>
+					</div>
+				</div>
 				<div className="item">
 					<img src={robofriends} alt="" className="thumb" />
 					<div className="overlay">
