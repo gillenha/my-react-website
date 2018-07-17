@@ -8,6 +8,7 @@ import wikipedia from '../../images/wikipedia.png';
 import bookapp from '../../images/bookapp.png';
 import reactweather from '../../images/reactweather.png';
 import rollingfarms from '../../images/rollingfarms.jpg';
+import ecommerce from '../../images/ecommerce.png';
 import './projects.css';
 
 class Projects extends Component {
@@ -26,18 +27,7 @@ class Projects extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="item">
-					<img src={robofriends} alt="" className="thumb" />
-					<div className="overlay">
-						<div className="text">
-							<h3>Robofriends</h3>
-							<p><strong>Created a list of card elements using the React front end library and a functional search bar</strong></p>
-							<p>Javascript, React, Redux</p>
-							<p><a href="https://robofriendsapp.herokuapp.com" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
-							<p><a href="https://github.com/gillenha/robofriends" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
-						</div>
-					</div>
-				</div>
+				
 				<div className="item">
 					<img src={facerecapp} alt="" className="thumb" />
 					<div className="overlay">
@@ -51,14 +41,26 @@ class Projects extends Component {
 					</div>
 				</div>
 				<div className="item">
-					<img src={bookapp} alt="" className="thumb" />
+					<img src={robofriends} alt="" className="thumb" />
 					<div className="overlay">
 						<div className="text">
-							<h3>Book App</h3>
-							<p><strong>A React app that that connects Redux and React-Redux into a short list of books.</strong></p>
+							<h3>Robofriends</h3>
+							<p><strong>Created a list of card elements using the React front end library and a functional search bar</strong></p>
+							<p>Javascript, React, Redux</p>
+							<p><a href="https://robofriendsapp.herokuapp.com" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+							<p><a href="https://github.com/gillenha/robofriends" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+						</div>
+					</div>
+				</div>
+				<div className="item">
+					<img src={ecommerce} alt="" className="thumb" />
+					<div className="overlay">
+						<div className="text">
+							<h3>E-commerce App</h3>
+							<p><strong>A React app that utilizes Redux to create a simple ecommerce app</strong></p>
 							<p>React, Redux, react-redux, JSX, Babel</p>
-							<p><a href="https://gillenha.github.io/redux-book-app/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
-							<p><a href="https://github.com/gillenha/redux-book-app" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+							<p><a href="https://simple-ecommerce-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+							<p><a href="https://github.com/gillenha/react-workshop-app-build" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
 						</div>
 					</div>
 				</div>
@@ -71,6 +73,18 @@ class Projects extends Component {
 							<p>React, Redux, react-redux, JSX, Babel</p>
 							<p><a href="https://gillenha.github.io/react-weather-app/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
 							<p><a href="https://github.com/gillenha/react-weather-app" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+						</div>
+					</div>
+				</div>
+				<div className="item">
+					<img src={bookapp} alt="" className="thumb" />
+					<div className="overlay">
+						<div className="text">
+							<h3>Book App</h3>
+							<p><strong>A React app that that connects Redux and React-Redux into a short list of books.</strong></p>
+							<p>React, Redux, react-redux, JSX, Babel</p>
+							<p><a href="https://gillenha.github.io/redux-book-app/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+							<p><a href="https://github.com/gillenha/redux-book-app" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
 						</div>
 					</div>
 				</div>
